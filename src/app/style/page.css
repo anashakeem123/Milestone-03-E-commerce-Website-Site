@@ -1,0 +1,24 @@
+/* Marquee animation */
+@keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite; /* Adjust speed with duration */
+  }
+
+  
+  @media (max-width: 768px) {
+    .animate-marquee {
+      font-size: 0.8rem;
+      animation-duration: 10s; /* Slower for smaller screens */
+    }
+  }
+  

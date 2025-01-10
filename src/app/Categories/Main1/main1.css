@@ -1,0 +1,18 @@
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  display: flex;
+  animation: slide 15s linear infinite;
+  animation-play-state: running; /* Default state */
+}
+
+.animate-slide.paused {
+  animation-play-state: paused; /* Pause animation */
+}
