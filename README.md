@@ -1,7 +1,8 @@
 Milestone 03: 🛒 My E-commerce Website
 Welcome to the Milestone 03 of the E-commerce Website project! This milestone focuses on developing the essential components of the website and ensuring a smooth user experience. By the end of this milestone, you should have a fully functional e-commerce website prototype, ready for testing and further development. 🛒💻
 
-Live Demo Link : ()
+Live Demo Link : ![Screenshot (1906)](https://github.com/user-attachments/assets/772bb3ad-8a0d-4d0d-9d33-677173e0777a)
+
 
 Features
 Product Listing: A dynamic page displaying a variety of products with categories and sorting options. 🛍️📦
